@@ -3,5 +3,5 @@
   "status": "success",
   "errors": [],
   "gitPushed": true,
-  "notes": "周二交易日日报已于 9:30 由 heartbeat 补生成（cron 未触发）。19:30 确认已推送。"
+  "notes": "周二交易日日报已生成并推送。晚间确认状态正常。"
 }
