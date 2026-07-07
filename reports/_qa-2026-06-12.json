@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-06-12T02:34:29.051Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-12.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "1 个链接不可达",
+      "links": [
+        {
+          "url": "https://waymo.com/blog/2026/06/waymo-premier/",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

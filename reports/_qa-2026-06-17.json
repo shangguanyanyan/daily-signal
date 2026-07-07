@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-06-17T02:34:31.201Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-17.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "3 个链接不可达",
+      "links": [
+        {
+          "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+          "status": 405
+        },
+        {
+          "url": "https://www.producthunt.com/products/fluxmail",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/obotiq",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

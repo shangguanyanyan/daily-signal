@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-07-03T02:34:25.995Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-03.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "1 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/wins-2",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

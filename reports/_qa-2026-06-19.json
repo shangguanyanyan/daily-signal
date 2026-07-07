@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-06-19T02:36:02.215Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-19.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "3 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/ai-native-ecommerce-infrastructure",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/tine-2",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/locofy-ai",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

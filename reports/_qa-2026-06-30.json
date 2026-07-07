@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-06-30T02:36:36.992Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-30.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "4 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/lockin-mcp",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/persona-12",
+          "status": 403
+        },
+        {
+          "url": "https://github.com/deepreinforce-ai/Ornith-1",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://github.com/SMJAI/open-memory-protocol",
+          "error": "The operation was aborted due to timeout"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

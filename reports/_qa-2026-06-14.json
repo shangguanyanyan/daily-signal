@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-06-14T02:33:16.355Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-14.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "source_section",
+      "detail": "日报缺少\"来源\"模块"
+    },
+    {
+      "level": "BLOCK",
+      "check": "attribution_missing_source",
+      "detail": "断言 \"**理由**：Meshy 发布\" 附近缺少来源标注",
+      "context": "是 B2B 方向，但需求真实且付费意愿强。  ### 方向 3：3D 内容生成工具链（优先级：中） **理由**：Meshy 发布全球首个 3D AI Agent 标志 3D 创作门槛大幅降低，但工作流仍不完整。可关注从文本/图片到可编辑 3D 资产的中间工具。  ---  ## 3. Top 信号"
+    },
+    {
+      "level": "BLOCK",
+      "check": "attribution_missing_source",
+      "detail": "断言 \"政府关系的敏感性，地缘政治风险成为投资\" 附近缺少来源标注",
+      "context": "话直接导致对 Anthropic 模型的管制措施 - **why_now**：揭示 AI 公司 - 政府关系的敏感性，地缘政治风险成为投资/选型变量 - **possible_product**：AI 供应链风险评估工具、多模型冗余方案咨询 - **today_action**：整理 Anthrop"
+    },
+    {
+      "level": "BLOCK",
+      "check": "attribution_missing_source",
+      "detail": "断言 \"3：Meshy 发布\" 附近缺少来源标注",
+      "context": "tion**：整理 Anthropic 模型被限制的具体范围，评估对现有产品的影响  ### 信号 3：Meshy 发布 3D AI Agent - **来源**：量子位 - **证据摘要**：全球首个 3D AI Agent，被 HuggingFace CEO 力荐，Bengio 团队也押注 - "
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 3,
+    "warnings": 1,
+    "pass": false
+  }
+}

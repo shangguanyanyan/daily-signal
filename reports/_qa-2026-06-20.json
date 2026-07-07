@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-06-20T02:34:48.676Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-20.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "3 个链接不可达",
+      "links": [
+        {
+          "url": "https://news.ycombinator.com/",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://metalearn.substack.com/p/i-solved-my-mystery-fatigue-with-ai",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

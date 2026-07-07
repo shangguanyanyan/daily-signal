@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-06-21T02:33:46.263Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-21.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "source_section",
+      "detail": "日报缺少\"来源\"模块"
+    },
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "1 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/slack",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 2,
+    "pass": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-07-04T02:34:33.343Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-04.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "3 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/tamamon-a-tiny-desktop-pet-that-grows",
+          "status": 403
+        },
+        {
+          "url": "https://news.ycombinator.com/",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.v2ex.com/",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-06-28T02:33:16.088Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-28.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "2 个链接不可达",
+      "links": [
+        {
+          "url": "https://github.com/kageroumado/adrafinil），star",
+          "status": 404
+        },
+        {
+          "url": "https://github.com/bikini/exploitarium，查看已披露的漏洞类型。评估自己/客户的系统是否受影响，制定应急计划。",
+          "status": 404
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

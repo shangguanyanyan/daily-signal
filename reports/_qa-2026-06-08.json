@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-06-08T02:34:16.921Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-08.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "1 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

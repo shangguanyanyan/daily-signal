@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-06-23T02:32:19.134Z",
+  "report": "/home/admin/daily-signal/reports/2026-06-23.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "source_section",
+      "detail": "日报缺少\"来源\"模块"
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}
