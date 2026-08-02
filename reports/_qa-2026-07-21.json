@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-07-21T02:33:11.615Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-21.md",
+  "failures": [],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 0,
+    "pass": true
+  }
+}

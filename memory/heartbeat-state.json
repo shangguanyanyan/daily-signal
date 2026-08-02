@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-07-26T08:30:00+08:00",
+  "lastRun": "2026-08-02T08:30:00+08:00",
   "status": "success",
-  "errors": [],
+  "errors": ["配置数据缺失: profile.md, portfolio.json, watchlist.md, filters.yaml, sources.yaml, preferences.md 未找到，持仓速览跳过"],
   "gitPushed": true
 }

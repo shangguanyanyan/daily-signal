@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-07-19T02:32:33.758Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-19.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "3 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/verse-6，记录其定价模型和核心承诺，对比你现有产品的价值主张",
+          "status": 403
+        },
+        {
+          "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/，记录",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.producthunt.com/products/mirage-15，记录其目标客户画像和定价，评估是否可复制到你的领域",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-07-16T02:35:07.991Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-16.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "4 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/ccshare",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/crustdata-2",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/claude-overlay",
+          "status": 403
+        },
+        {
+          "url": "https://sqlite.org/nulinstr.html",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-07-15T02:35:26.739Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-15.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "5 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/fudge-mcp",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/autoshelf",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/loomal",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/loopclub",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/claude-overlay",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

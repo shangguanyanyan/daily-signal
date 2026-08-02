@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-07-12T02:31:59.260Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-12.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "4 个链接不可达",
+      "links": [
+        {
+          "url": "https://news.ycombinator.com/",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.producthunt.com/",
+          "status": 403
+        },
+        {
+          "url": "https://www.v2ex.com/",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.wallstreetcn.com/",
+          "status": 404
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

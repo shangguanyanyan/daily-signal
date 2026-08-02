@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-07-13T02:32:54.394Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-13.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "4 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+          "status": 403
+        },
+        {
+          "url": "https://www.producthunt.com/products/effects-sdk",
+          "status": 403
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=48886741",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://nanduruganesh.github.io/flash-msa/",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-07-20T02:32:21.066Z",
+  "report": "/home/admin/daily-signal/reports/2026-07-20.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "2 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com/products/openmarkdown",
+          "status": 403
+        },
+        {
+          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}
