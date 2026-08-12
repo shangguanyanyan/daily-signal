@@ -1,7 +1,6 @@
 {
-  "lastRun": "2026-08-07T08:31:00+08:00",
+  "lastRun": "2026-08-11T09:00:00+08:00",
   "status": "success",
-  "errors": ["本地API美股数据返回demo数据(非实盘)", "portfolio.json不存在"],
-  "gitPushed": true,
-  "reportPath": "reports/2026-08-07.md"
+  "errors": [],
+  "gitPushed": true
 }

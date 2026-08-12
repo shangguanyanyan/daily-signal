@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-08-04T02:33:42.591Z",
+  "report": "/home/admin/daily-signal/reports/2026-08-04.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "2 个链接不可达",
+      "links": [
+        {
+          "url": "https://www.producthunt.com",
+          "status": 403
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "error": "fetch failed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}

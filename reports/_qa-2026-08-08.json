@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-08-08T02:32:24.021Z",
+  "report": "/home/admin/daily-signal/reports/2026-08-08.md",
+  "failures": [
+    {
+      "level": "WARN",
+      "check": "dead_links",
+      "detail": "1 个链接不可达",
+      "links": [
+        {
+          "url": "https://genesisopenmodels.anl.gov/",
+          "status": 403
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 5,
+    "blocks": 0,
+    "warnings": 1,
+    "pass": true
+  }
+}
